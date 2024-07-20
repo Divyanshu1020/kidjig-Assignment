@@ -12,7 +12,7 @@ export default function Navbar() {
           <NavLinks/>
           
           <div>
-            <span className=' px-4 py-4 border border-blueBorder  rounded-xl'>
+            <span className=' mr-4 px-4 py-4 border border-blueBorder  rounded-xl'>
               <a 
                 className=' leading-8 font-semibold text-xl'
                 href="/">

@@ -26,7 +26,7 @@ export default function NavLinks() {
     },
   ];
   return (
-    <div className=" h-full w-full max-w-[460px]">
+    <div className=" hidden md:block h-full w-full max-w-[460px]">
       <ul className=" h-full flex flex-row items-center justify-between">
         {navLinks.map((link) => (
           <li key={link.title}>

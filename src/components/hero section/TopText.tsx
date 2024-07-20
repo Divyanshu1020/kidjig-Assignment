@@ -4,10 +4,10 @@ import Button2 from "../ui/Button2";
 export default function TopText() {
   return (
     <div>
-        <h1 className="mb-4 font-normal text-6xl leading-[60px]">
+        <h1 className="mb-4 font-normal text-4xl md:text-6xl md:leading-[60px]">
             Empowering Lives Through Innovative <span className="underline decoration-custom-blue">AI</span> Technologies. 
         </h1>
-        <p className="text-pra leading-7 text-2xl font-normal">
+        <p className="text-pra leading-7 text-xl md:text-2xl font-normal">
         Finding new horizons for visionaries to accelerate their innovation and progress.
         </p>
         <div className=" flex flex-row gap-6 mt-7">
